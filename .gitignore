@@ -1,4 +1,7 @@
 
 *.lck
+*OldVersions/
 
-/*/OldVersions/
+*.b#?
+*.s#?
+*.l#?
