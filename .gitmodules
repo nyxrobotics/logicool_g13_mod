@@ -1,0 +1,9 @@
+[submodule "clueboard_eagle_libs"]
+	path = clueboard_eagle_libs
+	url = https://github.com/nyxrobotics/clueboard_eagle_libs
+[submodule "chiengineer_eagle_libs"]
+	path = chiengineer_eagle_libs
+	url = https://github.com/nyxrobotics/chiengineer_eagle_libs
+[submodule "ikesato_eagle_libs"]
+	path = ikesato_eagle_libs
+	url = https://github.com/nyxrobotics/ikesato_eagle_libs
