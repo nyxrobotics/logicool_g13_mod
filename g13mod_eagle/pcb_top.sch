@@ -7231,9 +7231,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="5.08" y="45.72" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="12"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-2.54" y="-5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="0" y="-5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="JP5" gate="G$1" pin="11"/>
+<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CN6_17" class="0">
@@ -7243,9 +7243,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="7.62" y="45.72" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<label x="0" y="-5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="JP5" gate="G$1" pin="11"/>
-<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.1524" layer="91"/>
+<label x="2.54" y="-5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="JP5" gate="G$1" pin="10"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CN6_16" class="0">
@@ -7255,9 +7255,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="10.16" y="45.72" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<label x="2.54" y="-5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="JP5" gate="G$1" pin="10"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-5.08" width="0.1524" layer="91"/>
+<label x="5.08" y="-5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="JP5" gate="G$1" pin="9"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CN6_15" class="0">
@@ -7270,11 +7270,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="M2" gate="1" pin="S1"/>
 <wire x1="25.4" y1="22.86" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <label x="25.4" y="25.4" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<label x="5.08" y="-5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="JP5" gate="G$1" pin="9"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CN6_14" class="0">
