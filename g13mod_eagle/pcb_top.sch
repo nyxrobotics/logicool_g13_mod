@@ -7079,13 +7079,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="-31.115" y="34.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-12.7" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP4" gate="G$1" x="-50.8" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="-59.055" y="34.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-43.18" y="34.29" size="1.778" layer="96" rot="R90"/>
+<instance part="JP4" gate="G$1" x="-53.34" y="35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="-45.085" y="41.91" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-60.96" y="41.91" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="JP7" gate="G$1" x="-50.8" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="-59.055" y="-1.27" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-43.18" y="-1.27" size="1.778" layer="96" rot="R90"/>
+<instance part="JP7" gate="G$1" x="-53.34" y="2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="-45.085" y="8.89" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-60.96" y="8.89" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="LED1" gate="G$1" x="-35.56" y="22.86" smashed="yes">
 <attribute name="NAME" x="-32.004" y="18.288" size="1.778" layer="95" rot="R90"/>
@@ -7135,32 +7135,36 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="V" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="38.1" x2="-55.88" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="38.1" x2="-48.26" y2="5.08" width="0.1524" layer="91"/>
+<label x="-48.26" y="38.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="G" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <pinref part="JP7" gate="G$1" pin="2"/>
-<wire x1="-53.34" y1="38.1" x2="-53.34" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="38.1" x2="-50.8" y2="5.08" width="0.1524" layer="91"/>
+<label x="-50.8" y="38.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="R" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="3"/>
 <pinref part="JP7" gate="G$1" pin="3"/>
-<wire x1="-50.8" y1="38.1" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="38.1" x2="-53.34" y2="5.08" width="0.1524" layer="91"/>
+<label x="-53.34" y="38.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="B" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="4"/>
 <pinref part="JP7" gate="G$1" pin="4"/>
-<wire x1="-48.26" y1="38.1" x2="-48.26" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="38.1" x2="-55.88" y2="5.08" width="0.1524" layer="91"/>
+<label x="-55.88" y="38.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
