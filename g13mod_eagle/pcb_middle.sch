@@ -14995,9 +14995,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="160.02" y="-129.54" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="-88.9" x2="215.9" y2="-88.9" width="0.1524" layer="91"/>
-<label x="215.9" y="-88.9" size="1.778" layer="95" xref="yes"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="-73.66" x2="215.9" y2="-73.66" width="0.1524" layer="91"/>
+<label x="215.9" y="-73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="R" class="0">
@@ -15169,9 +15169,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="165.1" y="-129.54" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="-73.66" x2="215.9" y2="-73.66" width="0.1524" layer="91"/>
-<label x="215.9" y="-73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="-88.9" x2="215.9" y2="-88.9" width="0.1524" layer="91"/>
+<label x="215.9" y="-88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="V" class="0">
